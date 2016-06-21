@@ -195,6 +195,10 @@ h2 {
   margin-top: 0;
 }
 
+dd {
+  -webkit-margin-start: 25px;
+}
+
 /*  */
 /* .column { */
 /*   margin-top: 40px; */
