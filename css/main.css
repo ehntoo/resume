@@ -98,7 +98,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-ul li { list-style: circle; }
+ul li { list-style: disc; }
 
 header h1 { font-weight: 600; margin: 0; }
 header ul { font-weight: 400; }
@@ -151,8 +151,16 @@ hr {
   margin-bottom: 1em;
 }
 
-#experience li, #education li {
+ul.nobullet > li {
   list-style: none;
+}
+
+#experience ul ul, #education ul ul {
+  padding-left: 15px;
+}
+
+#experience li li, #education li li {
+  list-style: disc;
 }
 
 #experience dt, #education dt {
