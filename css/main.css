@@ -141,10 +141,8 @@ section {
   margin: 0;
 }
 
-@media print{
-  body {
-    margin: 0.5in 0.75in;
-  }
+body {
+  margin: 0.5in 0.75in;
 }
 /*  */
 /* dl { */
