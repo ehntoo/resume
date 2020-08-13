@@ -36,6 +36,9 @@ html {
     font-family: Proxima Nova;
     /* line-height: 1.4; */
     line-height: 1.3;
+    /* Limit resume width to a letter page width */
+    max-width: 8.5in;
+    margin: auto;
 }
 
 /*
